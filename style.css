@@ -1,0 +1,28 @@
+.fileiras {
+    display: flex;
+}
+span {
+    display: none;
+}
+li {
+    list-style: none;
+    width: 150px;
+    height: 100px;
+}
+li:hover span {
+    display: block;
+}
+li:hover {
+    margin-bottom: 50px;
+}
+li .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+li h1 {
+    margin: 0;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
